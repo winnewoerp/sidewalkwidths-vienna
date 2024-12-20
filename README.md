@@ -1,4 +1,8 @@
-# Sidewalk Widths NYC
+# Sidewalk Widths Vienna
+
+***Still in perparation, fork of [Meli Harvey's NYC counterpart](https://github.com/meliharvey/sidewalkwidths-nyc)***
+
+[TBD]
 
 Sidewalk Widths NYC uses [New York City's 2024 Sidewalk dataset](https://data.cityofnewyork.us/City-Government/NYC-Planimetric-Database-Sidewalk/vfx9-tbb6) to produce a map of sidewalk widths for the 5 boroughs.
 
