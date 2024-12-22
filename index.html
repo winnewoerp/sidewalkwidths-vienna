@@ -3,14 +3,14 @@
 <head>
 
 <meta charset="utf-8" />
-<title>Sidewalk Widths NYC</title>
+<title>Sidewalk Widths Vienna</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-<meta name="description" content="Explore the sidewalk widths of New York City. Understand COVID and social distancing in public space." />
+<meta name="description" content="Explore the sidewalk widths of Vienna, Austria. Understand COVID and social distancing in public space." />
 
-<meta property="og:title" content="Sidewalk Width NYC" />
-<meta property="og:image" content="https://sidewalkwidths.nyc/assets/sidewalkwidths_nyc.jpg" />
-<meta property="og:url" content="https://www.sidewalkwidths.nyc" />
-<meta property="og:description" content="Sidewalk Widths NYC is an interactive map that allows you to explore New York City's sidewalks relative to how good they are for social distancing." />
+<meta property="og:title" content="Sidewalk Width Vienna" />
+<meta property="og:image" content="https://sidewalkwidths.nyc/assets/sidewalkwidths_vienna.jpg" />
+<meta property="og:url" content="https://viennasidewalks.stadtkreation.de" />
+<meta property="og:description" content="Sidewalk Widths Vienna is an interactive map that allows you to explore Vienna's sidewalks relative to how good they are for social distancing." />
 
 <link rel='icon' href='favicon.ico?' type='image/x-icon'/ >
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
@@ -29,8 +29,8 @@
 			<img src="./assets/legend.png"></img>
 		</button>
 
-		<button class="btn circle-btn" title="Charts" onclick="toggleWindow('chartsWindow')">
-			<img src="./assets/charts.png"></img>
+		<!--<button class="btn circle-btn" title="Charts" onclick="toggleWindow('chartsWindow')">
+			<img src="./assets/charts.png"></img>-->
 		</button>
 
 		<!-- <button class="btn circle-btn" title="District" onclick="toggleWindow('selectWindow')">
@@ -42,9 +42,9 @@
 		<img id="landingClose" class="close" src="./assets/close.svg" alt="close" onclick="toggleWindow('infoWindow')" style="display: none;">
 		<div class="content">
 			<h3>Welcome to</h3>
-			<h1>Sidewalk Widths NYC</h1>
-			<p>This map is intended to give an impression of how sidewalk widths impact the ability of pedestrians to practice social distancing. Widths were determined from <a href="https://data.cityofnewyork.us/City-Government/Sidewalk/vfx9-tbb6">New York City's Sidewalk dataset</a> which was not verfied for accuracy or completeness.</p>
-			<p>To learn more about how this dataset was produced, visit the <a href="https://www.github.com/meliharvey/sidewalkwidths-nyc">GitHub page</a>.</p>
+			<h1>Sidewalk Widths Vienna</h1>
+			<p>This map is intended to give an impression of how sidewalk widths impact the ability of pedestrians to practice social distancing. Widths are extracted from the <a href="https://www.data.gv.at/katalog/en/dataset/3fefc838-791d-4dde-975b-a4131a54e7c5#resources">Geopackage GIP Reference at data.gv.at</a> (version 2024/10) by using the <em>WIDTHAVERAGE</em> attribute of all relevant edges from the <em>LINEARUSE_OGD</em> layer.<p>
+			<p>To learn more about how the data was prepared, visit the <a href="https://github.com/winnewoerp/sidewalkwidths-vienna">GitHub page</a>.</p>
 			<p><small>DISCLAIMER<br>
 			Do not use this map to make decisions that impact your health or safety. Other important factors like sidewalk obstructions and pedestrian activity are not accounted for in this dataset.</small></p>
 		</div>
@@ -66,7 +66,7 @@
 		</div>
 	</div>
 
-	<div id="chartsWindow" class="window menu" style="display: none;">
+	<!--<div id="chartsWindow" class="window menu" style="display: none;">
 		<img class="close" src="./assets/close.svg" alt="close" onclick="toggleWindow('chartsWindow')">
 		<div class="header">
 				<h2>Charts</h2>
@@ -77,12 +77,12 @@
 			</div>
 			<div id="chartContainer" class="chart"></div>
 			<div class="dropdown">
-			  <button id="chartDropdownButton" onclick="toggleDropdown()" class="btn dropdown-btn">NYC</button>
+			  <button id="chartDropdownButton" onclick="toggleDropdown()" class="btn dropdown-btn">Vienna</button>
 			  <div id="chartDropdown" class="dropdown-content">
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<!-- <div id="selectWindow" class="window menu" style="display: none;">
 		<img class="close" src="./assets/close.svg" alt="close" onclick="toggleWindow('selectWindow')">
