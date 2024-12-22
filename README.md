@@ -2,7 +2,7 @@
 
 ***This is a fork of [Meli Harvey's NYC Sidewalk Widths tool](https://github.com/meliharvey/sidewalkwidths-nyc)***
 
-Widths are extracted from the [Geopackage GIP Reference at data.gv.at](https://www.data.gv.at/katalog/en/dataset/3fefc838-791d-4dde-975b-a4131a54e7c5#resources) (version 2024/10) by using the *WIDTHAVERAGE* attribute of all relevant edges from the *LINEARUSE_OGD<* layer.
+Widths are extracted from the [Geopackage GIP Reference at data.gv.at](https://www.data.gv.at/katalog/en/dataset/3fefc838-791d-4dde-975b-a4131a54e7c5#resources) (version 2024/10) by using the *WIDTHAVERAGE* attribute of all relevant edges from the *LINEARUSE_OGD* layer.
 
 This repo contains the notebooks to reproduce this work, as well as the finished Sidewalk Width dataset in GeoJSON format.
 
