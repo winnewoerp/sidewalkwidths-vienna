@@ -111,12 +111,13 @@ var map = new mapboxgl.Map({
   center: [16.3799, 48.2203],
   zoom: 13,
   maxZoom: 22,
-  minZoom: 13,
+  minZoom: 12,
   // maxBounds: [
   //   [-74.36, 40.41], // Southwest coordinates
   //   [-73.66, 40.98] // Northeast coordinates
   // ],
-  hash: true
+  hash: true,
+  customAttribution: 'Vienna sidewalk data source: <a href="https://gip.gv.at">gip.gv.at</a>',
 });
 
 map.addControl(new mapboxgl.NavigationControl());
